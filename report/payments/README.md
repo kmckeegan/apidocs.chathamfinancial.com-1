@@ -1,4 +1,4 @@
-GET /report/payments/{id}
+GET /reports/payments/{id}
 =======
 
 Returns reporting data pertaining to payments
@@ -10,7 +10,7 @@ Returns reporting data pertaining to payments
 ### Example Request
 
 ```bash
-curl https://api.chathamfinancial.com/report/payments/exampleReport?fromdate=2013-10-31&todate=2013-11-30&offset=0
+curl https://api.chathamfinancial.com/reports/payments/exampleReport?fromdate=2013-10-31&todate=2013-11-30&offset=0
     -X GET
 	-H "Authorization: Bearer XXX"
 ```
