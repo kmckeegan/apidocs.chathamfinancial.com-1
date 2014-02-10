@@ -131,7 +131,7 @@ Per request serilization options are available. Options are set in the `X-Chatha
 
 | Option Name         | Description | Supported Content Types |
 | ------------------- | ----------- | ----------------------- |
-| `IncludeNullValues` | To save on processing and reduce response, `null` values are not serialized by default. Use this option to include `null` values in the response. | `application/json` |
+| `IncludeNullValues` | To save on processing and reduce response size, `null` values are not serialized by default. Use this option to include `null` values in the response. | `application/json` |
 
 
 *Example:*
