@@ -123,3 +123,23 @@ Link: <?limit=2&offset=2>;
 ```
 
 ----
+
+### Serialization Options
+----
+
+Per request serilization options are available. Options are set in the `X-Chatham-Serializer-Options` header. Multiple values are separated by a `,`.
+
+| Option Name         | Description | Supported Content Types |
+| ------------------- | ----------- | ----------------------- |
+| `IncludeNullValues` | To save on processing and reduce response, `null` values are not serialized by default. Use this option to include `null` values in the response. | `application/json` |
+
+
+*Example:*
+
+```text
+X-Chatham-Serializer-Options: IncludeNullValues
+```
+
+**Note:** *Header name and values are case insensitive.*
+
+----
