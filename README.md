@@ -12,6 +12,7 @@
 * [Content Type][Common]
 * [Compression][Common]
 * [Pagination][Common]
+* [Serialization Options][Common]
 
 -----
 
