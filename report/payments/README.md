@@ -54,7 +54,7 @@ This request will return all payments for transactions active from and including
 
 | Parameter | Type     |  Required  | Description                       |
 | --------- | -------- | :--------: | --------------------------------- |
-| `{id}`    | `string` | Yes        | The payement report template name |
+| `{id}`    | `string` | Yes        | The payment report template name |
 
 ### Request Query String Parameters
 
